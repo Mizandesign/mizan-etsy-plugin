@@ -12,6 +12,7 @@
     "listings",
     "orders"
   ],
+  "skills": "./skills/",
   "interface": {
     "displayName": "Mizan Etsy",
     "shortDescription": "Manage Etsy seller workflows in Codex.",
@@ -20,7 +21,6 @@
     "category": "Business & Operations",
     "capabilities": [
       "Interactive",
-      "Read",
       "Write"
     ],
     "defaultPrompt": [
