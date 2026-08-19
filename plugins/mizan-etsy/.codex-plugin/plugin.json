@@ -1,0 +1,30 @@
+{
+  "name": "mizan-etsy",
+  "version": "0.1.0",
+  "description": "Etsy seller workflow plugin for Mizan.",
+  "author": {
+    "name": "Mizandesign"
+  },
+  "repository": "https://github.com/Mizandesign/mizan-etsy-plugin",
+  "keywords": [
+    "etsy",
+    "seller",
+    "listings",
+    "orders"
+  ],
+  "interface": {
+    "displayName": "Mizan Etsy",
+    "shortDescription": "Manage Etsy seller workflows in Codex.",
+    "longDescription": "Mizan Etsy provides Etsy seller workflow support for listings, orders, sales analysis, and shop operations.",
+    "developerName": "Mizandesign",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Help me manage my Etsy shop."
+    ]
+  }
+}
