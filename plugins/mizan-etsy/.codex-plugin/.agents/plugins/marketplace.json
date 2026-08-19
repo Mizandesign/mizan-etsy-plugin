@@ -1,0 +1,20 @@
+{
+  "name": "mizan-marketplace",
+  "interface": {
+    "displayName": "Mizan Plugins"
+  },
+  "plugins": [
+    {
+      "name": "mizan-etsy",
+      "source": {
+        "source": "local",
+        "path": "./plugins/mizan-etsy"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Business & Operations"
+    }
+  ]
+}
