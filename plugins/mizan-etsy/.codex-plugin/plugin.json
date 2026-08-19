@@ -1,7 +1,7 @@
 {
   "name": "mizan-etsy",
-  "version": "0.1.0",
-  "description": "Etsy seller workflow plugin for Mizan.",
+  "version": "0.2.0",
+  "description": "Etsy seller workflow plugin for Mizan with Etsy developer MCP reference support.",
   "author": {
     "name": "Mizandesign"
   },
@@ -13,10 +13,11 @@
     "orders"
   ],
   "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Mizan Etsy",
     "shortDescription": "Manage Etsy seller workflows in Codex.",
-    "longDescription": "Mizan Etsy provides Etsy seller workflow support for listings, orders, sales analysis, and shop operations.",
+    "longDescription": "Mizan Etsy provides Etsy seller workflow support for listings, orders, sales analysis, and shop operations, with Etsy developer documentation available through the official Etsy Dev MCP server.",
     "developerName": "Mizandesign",
     "category": "Business & Operations",
     "capabilities": [
@@ -24,7 +25,7 @@
       "Write"
     ],
     "defaultPrompt": [
-      "Help me manage my Etsy shop."
+      "Help me manage my Etsy shop using Etsy API documentation and connected Etsy account data when available."
     ]
   }
 }
